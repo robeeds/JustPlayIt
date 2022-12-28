@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url(OW_heroes.png) no-repeat center center fixed;
+  background-size: auto;
+}
+.topnav {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #e9e9e9;
+  font-family: "Arial", serif;
+}
+.topnav .webpages a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px 15px 18px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 1s;
+}
+.topnav img{
+  float: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin: 0;
+  width: 27px;
+  height: 27px;
+}
+.topnav a:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition: 0.7s;
+}
+.topnav a.heroes{
+  background-color: #C1B3B0;
+}
+.topnav a.tanks:hover{
+  background-color: orange;
+  transition: 0.7s ease;
+}
+.topnav a.damage:hover {
+  background-color: #C70039;
+  transition: 0.7s ease;
+}
+.topnav a.support:hover {
+  background-color: #54CB1B;
+  transition: 0.7s ease;
+}
+.topnav i {
+  padding-right: 0px;
+}
+img.active{
+  background-color: #2196F3;
+}
+.dropbtn {
+  display: block;
+  float: right;
+  padding: 12px 12px 12px 12px;
+  margin: 0;
+  cursor: pointer;
+}
+.dropdown{
+  display: block;
+}
+.dropdown-content{
+  display: none;
+  text-align: right;
+  position: absolute;
+  min-width: 160px;
+  right: 0;
+  top: 56px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropbtn:hover{
+  background-color: gray;
+  transition: 0.7s;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.background img{
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: white;
+  border-radius: 50px;
+  font-family: "Verdana", serif;
+}
+.content h1{
+  text-align: center;
+}
+.content h3{
+  text-indent: 2em;
+}
+.back{
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.trans h3 {
+  padding: 10px 10px 10px 10px;
+}
+.trans h1{
+  padding: 10px 10px 10px 10px;
+}
